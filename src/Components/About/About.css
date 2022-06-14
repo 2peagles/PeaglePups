@@ -1,0 +1,52 @@
+.about-container{
+    padding: 5rem 1rem;
+    font-weight: bold;
+    color:#fff;
+    background-color: #48d1cc;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.about-content{
+    display: flex;
+    display: block;
+    text-align: center;
+    margin:1rem;
+    padding:10px;
+}
+
+.heading{
+    text-align: center;
+    font-family:'Caveat',cursive;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 3px;
+    text-align: left;
+}
+/* @media screen {
+    padding:1px;
+} */
+.box > img {
+    width:100%;
+    height:100%;
+  }
+  .box {
+    height:350px;
+    width:300px;
+    margin: 10px;
+    display:inline-block;
+  }
+  .container{
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px; 
+    margin:10px;
+    text-decoration:none;      
+    text-align: center;  
+    -webkit-transition: all 0.3s linear;
+     -khtml-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+         -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+  }

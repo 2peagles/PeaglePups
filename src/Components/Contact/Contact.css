@@ -1,0 +1,9 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+}
+
+form{
+    border: #48d1cc;
+}

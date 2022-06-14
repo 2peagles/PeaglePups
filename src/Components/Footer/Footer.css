@@ -1,0 +1,23 @@
+.footer-container{
+    display: flex;
+    display: inline-block;
+    padding: 15px;
+    width:100%;
+    text-align: center;
+    height:4rem;
+    color:white;
+    background-color: #48d1cc;
+}
+.icon{
+    font-size: 2rem;
+    margin:4px;
+    color:white;
+}
+/* .icon-chat{
+    font-size: 1.9rem;
+    float:right;
+} */
+button{
+    border:none;
+    background-color: transparent;
+}
