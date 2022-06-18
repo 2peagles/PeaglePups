@@ -3,7 +3,7 @@ import './Hero.css';
 
 export const Home = () => {
   return (
-    <div className='hero' id='hero'>
+    <div className='hero' id='hero' fluid>
     </div>
   )
 }

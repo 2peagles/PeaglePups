@@ -1,13 +1,11 @@
 .hero {
-    text-align: center;
     margin: 0;
     height: 100vh;
     width:100%;
     padding: 80px;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-image: url(../../Image/chairss1.jpg);
+    background: 
+    url(../../Image/chairss1.jpg) center right no-repeat;
     /* display: flex;
     justify-content: center; */
 }
