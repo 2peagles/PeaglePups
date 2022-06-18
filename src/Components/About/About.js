@@ -1,9 +1,12 @@
 import React from 'react';
 import './About.css';
-import spencer62 from '../../Image/spencer62.png';
-import spencer from '../../Image/spencer.png';
-import pups from '../../Image/pups.jpg';
-import beagle from '../../Image/beagle.jpg';
+import pillow1 from '../../Image/pillow1.jpg';
+import outside from '../../Image/outside.jpg';
+import ss1 from '../../Image/ss1.jpg';
+import Pillowtalk from '../../Image/Pillowtalk.jpg';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 
 export const About = () => {
@@ -15,22 +18,14 @@ export const About = () => {
         <h1 className='heading'>Purchase process</h1>
         <p className='about-text'>  Once The Puppies are born it's a first come first serve bases. You can put your deposit down and gradually pay till pick up day or pay in full upfront or the day of pick up. Group pick ups is scheduled based on buyers needs around 8 weeks of age and can be accomadated otherwise with prospective parents</p>
       </div>
-      <article>
-        <div class="">
-          <div class=" box container">
-            <img src={spencer62} alt="Spencer feeding the puppies" />
-          </div>
-          <div class=" box container">
-            <img src={ spencer }alt="Spencer with the puppies" />
-          </div>
-          <div class=" box container">
-            <img src={ pups } alt="Spencer and Steven sitting in a chair"  />
-          </div>
-          <div class=" box container">
-            <img src={ beagle } alt="cute lil dog"  />
-          </div>
-        </div>
-      </article>
+      <Container>
+        <Row>
+          <Col xs={6} md={3}><img src={pillow1} alt="Spencer feeding the puppies" /></Col>
+          <Col xs={6} md={3}><img src={outside} alt="Spencer with the puppies" /></Col>
+          <Col xs={6} md={3}><img src={ss1} alt="Spencer and Steven sitting in a chair" /></Col>
+          <Col xs={6} md={3}><img src={Pillowtalk} alt="Spencer and Steven sitting in a chair" /></Col>
+        </Row>
+      </Container>
     </div>
   )
 }
