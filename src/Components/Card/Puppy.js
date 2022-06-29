@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import './Puppy.css';
 import Container from 'react-bootstrap/Container';
@@ -35,6 +35,8 @@ export const Puppy = () => {
             className="d-block w-100 fluid"
             src={breezy}
             alt="First slide"
+            height='350px'
+            width="300px"
           />
           <Carousel.Caption>
             <h3>First slide label</h3>
@@ -46,6 +48,8 @@ export const Puppy = () => {
             className="d-block w-100"
             src={Bailey}
             alt="Second slide"
+            height='350px'
+            width="300px"
           />
 
           <Carousel.Caption>
@@ -58,6 +62,8 @@ export const Puppy = () => {
             className="d-block w-100"
             src={rocky}
             alt="Third slide"
+            height='350px'
+            width="300px"
           />
 
           <Carousel.Caption>

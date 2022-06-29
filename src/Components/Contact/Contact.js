@@ -14,7 +14,7 @@ export const Contact = () => {
             </div>
             <div class="mv3">
               <label class="db fw6 lh-copy f6" for="phone-number">Phone Number</label>
-              <input class="b pa2 input-reset ba bg-transparent " type="phone-number" name="phone-number" id="phone-number" />
+              <input class=" pa2 input-reset ba bg-transparent " type="phone-number" name="phone-number" id="phone-number" />
             </div>
           </fieldset>
           <div class="tu">

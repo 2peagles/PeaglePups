@@ -1,29 +1,65 @@
 .about-container{
-    padding: 5rem 1rem;
-    font-weight: bold;
     color:#fff;
-    background-color: #48d1cc;
+    padding: 1rem;
+    font-weight: bold;
+   align-items: center;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .about-content{
     display: flex;
     display: block;
     text-align: center;
-    margin:1rem;
-    padding:10px;
+    align-items: center;
+    min-height: 580px;
+    padding:2rem;
+    margin:3rem 8rem;
+    background-color: #48d1cc;
+}
+ .about-proccess{
+    margin-bottom:5px;
+    padding:0px;
+    list-style-type:none;
+}
+ul{
+    margin:0px;
+    padding-left:0px;
+    text-align: center;
 }
 
 .heading{
     text-align: center;
     font-family:'Caveat',cursive;
+    border:1px solid white;
+    box-shadow:black;
 }
 
-p{
-    font-size: 1.5rem;
-    margin: 3px;
+.about-text{
+    padding:20px;
     text-align: left;
+    font-size: 1.5rem;
 }
-.img {
-    height:300px;
-    width:350px;
+
+@media screen and ( max-width:400px ){
+    .about-content{
+        padding:1rem;
+        margin:1rem 0px;
+        min-height: auto;
+    }
+    .about-text{
+        padding:10px;
+    }
+    ul{
+        margin:0px;
+        padding-left:0px;
+        text-align: center;
+    }
+    .about-container{
+        padding:20px 0px;
+    }
 }
+/* @media screen and (max-width:1300px){
+    .about-content{
+        margin:3rem 1rem;
+        height: 880px;
+    }
+} */

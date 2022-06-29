@@ -1,13 +1,29 @@
 .hero {
-    margin: 0;
-    height: 100vh;
+    /* margin: 0; */
+    min-height: 100vh;
     width:100%;
-    padding: 80px;
-    background-size: cover;
-    background: 
-    url(../../Image/chairss1.jpg) center right no-repeat;
-    /* display: flex;
-    justify-content: center; */
+    color:white;
 }
 
-/* 1131px moblie make full background page*/
+@media (max-width:768px){
+.hero {
+    min-height: 100vh;
+    min-width:30vh;
+ /* h1{
+    font-size: cal(1.525rem +3.3vw); */
+    } 
+}
+/* 
+.overlay{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+width:100%;
+height: 100%;
+background-color: rgba(0,0,0,.2);
+}
+
+h1{
+    font-size: 4rem;
+} */
