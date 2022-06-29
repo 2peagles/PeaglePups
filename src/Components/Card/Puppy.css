@@ -3,6 +3,9 @@
 .puppy-container {
   height:750px;
   width:100%;
+  padding:30px;
+  margin:20px;
+  align-items: center;
 }
 
 .left{

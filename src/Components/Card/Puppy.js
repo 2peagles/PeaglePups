@@ -83,6 +83,8 @@ export const Puppy = () => {
             className="d-block w-100"
             src={marley}
             alt="First slide"
+            height='350px'
+            width="300px"
           />
           <Carousel.Caption>
             <h3>First slide label</h3>
@@ -94,6 +96,8 @@ export const Puppy = () => {
             className="d-block w-100"
             src={mila}
             alt="Second slide"
+            height='350px'
+            width="300px"
           />
 
           <Carousel.Caption>
@@ -106,6 +110,8 @@ export const Puppy = () => {
             className="d-block w-100"
             src={boots}
             alt="Third slide"
+            height='350px'
+            width="300px"
           />
 
           <Carousel.Caption>
