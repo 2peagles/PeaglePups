@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col'
 export const About = ()=>{
   return(
   <Container fluid id='about'>
-    <Row className='about-container' sm lg xl xxl>
+    <Row className='about-container' lg xl xxl>
       <Col  lg xl xxl>
         <Col className='about-content first-box' >
            <h1 className='heading pa2'>About Us</h1>
