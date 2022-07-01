@@ -1,18 +1,18 @@
 * {box-sizing:border-box}
-
+/* #puppies{
+  margin:120px 0px;
+} */
 .puppy-container {
-  height:750px;
+  /* height:750px; */
   width:100%;
-  padding:30px;
-  margin:20px;
-  align-items: center;
+  padding:20px;
+  /* align-items: center; */
 }
-
-.left{
-  float:left;
-  padding-right:1rem;
+.puppy-content{
+  margin: 10px auto;
 }
-.right{
-  float:right;
-  padding-right:1rem;
+@media screen and (max-width:500px){
+  .carousel-img{
+    height: 300px;
+  }
 }

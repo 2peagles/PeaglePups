@@ -25,17 +25,16 @@ export const Puppy = () => {
   };
 
   return (
-    <div className='puppy-container' id='puppies'>
-    <Container className="container" fluid>
+    <Container fluid className="puppy-container" id='puppies'>
       <Row xs={1} md={2}>
-        <Col>
+        <Col className='puppy-content'>
       <Carousel activeIndex={index} onSelect={handleSelect} className="left">
         <Carousel.Item>
           <img
-            className="d-block w-100 fluid"
+            className="d-block w-100 carousel-img"
             src={breezy}
             alt="First slide"
-            height='350px'
+            height='600px'
             width="300px"
           />
           <Carousel.Caption>
@@ -45,10 +44,10 @@ export const Puppy = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src={Bailey}
             alt="Second slide"
-            height='350px'
+            height='600px'
             width="300px"
           />
 
@@ -59,10 +58,10 @@ export const Puppy = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src={rocky}
             alt="Third slide"
-            height='350px'
+            height='600px'
             width="300px"
           />
 
@@ -76,14 +75,14 @@ export const Puppy = () => {
       </Carousel>
       </Col>
 
-      <Col>
+      <Col className='puppy-content'>
       <Carousel  activeIndex={index} onSelect={handleSelect} className="right">
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src={marley}
             alt="First slide"
-            height='350px'
+            height='600px'
             width="300px"
           />
           <Carousel.Caption>
@@ -93,10 +92,10 @@ export const Puppy = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src={mila}
             alt="Second slide"
-            height='350px'
+            height='600px'
             width="300px"
           />
 
@@ -107,10 +106,10 @@ export const Puppy = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             src={boots}
             alt="Third slide"
-            height='350px'
+            height='600px'
             width="300px"
           />
 
@@ -125,6 +124,5 @@ export const Puppy = () => {
     </Col>
   </Row>
   </Container>
-</div>
   )
 }
