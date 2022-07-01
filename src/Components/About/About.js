@@ -12,16 +12,16 @@ import Col from 'react-bootstrap/Col'
 export const About = ()=>{
   return(
   <Container fluid id='about'>
-    <Row className='about-container' lg xl xxl>
-      <Col  lg xl xxl>
-        <Col className='about-content first-box' >
-           <h1 className='heading pa2'>About Us</h1>
+    <Row className='about-container'>
+      <Col md lg xl xxl>
+        <Col className='about-content' >
+           <h1 className=' about -text heading pa2'>About Us</h1>
            <p className=' about-text pa2'>Spencer is currently 4 years old and steven is 3 years old. Spencer is currently 4 years old and steven is 3 years old.Spencer is currently 4 years old and steven is 3 years old.Spencer is currently 4 years old and steven is 3 years old.Spencer is currently 4 years old and steven is 3 years old.Spencer is currently 4 years old and steven is 3 years old.Spencer is currently 4 years old and steven is 3 years old.</p>
         </Col>
       </Col>
-      <Col lg xl xxl>
+      <Col md lg xl xxl>
         <Col  className='about-content'>
-          <h1 className='heading pa2'>Purchase process</h1>
+          <h1 className=' heading pa2'>Purchase process</h1>
           <div className='about-text'>
            <ul>
             <li className='about-proccess '><b>non-refundable deposit $150</b></li>

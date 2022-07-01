@@ -1,6 +1,8 @@
 .footer-container{
     display: flex;
     display: inline-block;
+    align-content: center;
+    justify-content: center;
     padding: 15px;
     width:100%;
     text-align: center;
@@ -24,5 +26,15 @@
 } */
 button{
     border:none;
+    display: contents;
     background-color: transparent;
+}
+@media screen  and (min-width:2000px){
+    .footer-container{
+        height: 8rem;
+    }
+    .icon{
+    font-size: 5rem;
+
+    }
 }

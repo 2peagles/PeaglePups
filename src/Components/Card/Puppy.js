@@ -25,10 +25,11 @@ export const Puppy = () => {
   };
 
   return (
-    <Container fluid className="puppy-container" id='puppies'>
+    <Container fluid id='puppies' className="puppy-container">
       <Row xs={1} md={2}>
-        <Col className='puppy-content'>
-      <Carousel activeIndex={index} onSelect={handleSelect} className="left">
+          <Col className='puppy-content' >
+          <h1 className='puppy-heading'>Litter One</h1>
+      <Carousel activeIndex={index} onSelect={handleSelect} >
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
@@ -37,7 +38,7 @@ export const Puppy = () => {
             height='600px'
             width="300px"
           />
-          <Carousel.Caption>
+          <Carousel.Caption >
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
@@ -74,9 +75,9 @@ export const Puppy = () => {
         </Carousel.Item>
       </Carousel>
       </Col>
-
       <Col className='puppy-content'>
-      <Carousel  activeIndex={index} onSelect={handleSelect} className="right">
+          <h1 className='puppy-heading'>Litter Two</h1>
+      <Carousel  activeIndex={index} onSelect={handleSelect} >
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
@@ -121,8 +122,8 @@ export const Puppy = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </Col>
-  </Row>
+        </Col>
+      </Row>
   </Container>
   )
 }

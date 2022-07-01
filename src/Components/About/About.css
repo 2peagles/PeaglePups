@@ -1,11 +1,12 @@
-#about{
-    margin:120px 0px;
-}
 .about-container{
-    color:#fff;
-    padding: 20px;
+    color:#000;
+    /* color:rgba(72, 209, 204, 0.4) ; */
+    padding: 120px 0px;
+    min-height: 100vh;
     align-items: center;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border:1px solid #000;
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+    background-color:rgba(72, 209, 204, 0.4) ;
 }
 .about-content{
     display: flex;
@@ -16,51 +17,59 @@
     width:450px;
     height:580px;
     min-height: 580px;
-    background-color: #48d1cc;
+    border-radius:1rem;
+    border:2px solid #000;
+    background-color: #fff;
+    /* background-color:rgba(72, 209, 204, 0.8) ; */
 }
  .about-proccess{
     padding:0px;
     text-align: left;
-    list-style-type:none;
-}
+    font-size: 18px;
+    list-style-type:circle;
+  }
+  b{
+    text-transform: uppercase;
+  }
 ul{
-    margin:0px;
-    padding-left:0px;
-    text-align: center;
+    margin:0;
+    padding: 0px;
+    text-align: left;
+    display: contents;
 }
 .heading{
     text-align: center;
+    border-radius:1rem;
     font-family:'Caveat',cursive;
-    border:1px solid white;
+    border:2px solid #000;
     box-shadow:black;
 }
 .about-text{
     padding:20px;
     text-align: left;
-    font-size: 24px;
+    font-size: 22px;
 }
 /* galaxy flip */
 @media screen and ( max-width:300px ) and (max-height:660px ){
-    #about{
-        margin:10px 0px;
-    } 
-    .about-container{
-        padding: 2px;
+    .about-container.row{
+        padding: 10px 0px;
     }
-    .about-content{
-        padding:25px;
+    .about-content.col{
+        padding:10px;
         width:auto;
         height:auto;
     }
     .about-text{
-        font-size: 20px;
+        font-size: 17px;
+        padding: 10px;
+    }
+    .about-proccess{
+        font-size:15px;
+        margin-left: 10px;
     }
 }
 /* phones*/
 @media screen and ( max-width:700px ) and (max-height:950px ){
-    #about{
-        margin:10px 0px;
-    } 
     .about-container{
         padding: 10px;
     }
@@ -72,15 +81,24 @@ ul{
 }
 /* tables */
 @media screen and ( min-width:750px ) and (min-height:1000px) {
-    #about{
-        margin:10px 0px;
-    } 
     .about-container{
         padding: 0px;
     }
     .about-content{
         padding:30px;
-        width:600px;
+        width:450px;
         height:auto;
+    }
+}
+@media screen  and (min-width:2000px){
+    .about-container{
+        padding:50px 10px;
+        margin:0px;
+        min-height: auto;
+    }
+    .about-content{
+        margin:10px auto;
+        height:auto;
+        width:auto;
     }
 }

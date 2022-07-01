@@ -1,29 +1,45 @@
-.hero {
-    /* margin: 0; */
-    min-height: 100vh;
-    width:100%;
-    color:white;
+#hero {
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    /* background-position: center; */
+    background-image: url(../../Image/chairss1.jpg);
 }
-
-@media (max-width:768px){
-.hero {
-    min-height: 100vh;
-    min-width:30vh;
- /* h1{
-    font-size: cal(1.525rem +3.3vw); */
-    } 
+#hero{
+    background-color: #000;
 }
-/* 
+@media screen and (max-width:1000px)  {
+#hero {
+    height: 70vh;
+}
+#hero-heading{
+    display: none;
+}
 .overlay{
+    display: none;
+}
+}
+@media screen and (max-width:500px)  {
+    #hero {
+        height: 50vh;
+    }
+}
+/* .overlay{
 display: flex;
 justify-content: center;
 align-items: center;
-position: absolute;
 width:100%;
 height: 100%;
 background-color: rgba(0,0,0,.2);
 }
 
-h1{
+.hero-heading{
     font-size: 4rem;
-} */
+    color:#000;
+    padding:20px;
+    border-radius: 10rem;
+    border: 3px solid #000;
+    background-color: #fff;
+    text-transform: uppercase;
+}  */
+ /* font-size: cal(1.525rem +3.3vw); */

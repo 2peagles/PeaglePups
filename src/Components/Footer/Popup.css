@@ -12,10 +12,11 @@
     align-items: center;
 }
 .popup-inner{
-    position: relative;
-    padding:10px;
+    position: absolute;
+    padding:0px;
     width:100%;
-    max-width: 520px;
+    max-width: 430px;
+    border-radius: 1rem;;
     background-color: #fff;
 }
 .popup-inner .close-btn{
