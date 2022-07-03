@@ -9,16 +9,16 @@ import { Footer } from './Components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Contact } from './Components/Contanct/Contact';
 
-function App() {
-  return (
-    <div className="App">
+function App () {
+    return (
+      <>
       <NavBar/>
       <Home/>
       <About/>
       <Puppy/>
       {/* <Contact/> */}
       <Footer/>
-    </div>
+      </>
   );
 }
 
