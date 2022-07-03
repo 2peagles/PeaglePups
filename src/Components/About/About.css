@@ -11,6 +11,7 @@
 .about-content{
     display: flex;
     display: block;
+    position: relative;
     text-align: center;
     margin: 10px auto;
     padding:30px;
@@ -49,6 +50,8 @@ ul{
     text-align: left;
     font-size: 22px;
 }
+
+
 /* galaxy flip */
 @media screen and ( max-width:300px ) and (max-height:660px ){
     .about-container.row{

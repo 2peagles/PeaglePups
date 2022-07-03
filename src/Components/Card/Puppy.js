@@ -26,7 +26,7 @@ export const Puppy = () => {
 
   return (
     <Container fluid id='puppies' className="puppy-container">
-      <Row xs={1} md={2}>
+      <Row xs={1} md={2} >
           <Col className='puppy-content' >
           <h1 className='puppy-heading'>Litter One</h1>
       <Carousel activeIndex={index} onSelect={handleSelect} >
