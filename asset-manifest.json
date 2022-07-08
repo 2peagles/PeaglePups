@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c975516b.css",
-    "main.js": "/static/js/main.78000a71.js",
-    "static/media/Bailey.jpg": "/static/media/Bailey.23f46c9b065b69229a8d.jpg",
-    "static/media/rocky.jpg": "/static/media/rocky.b0f953617fb50bce3b60.jpg",
-    "static/media/breezy.jpg": "/static/media/breezy.544265208e435d7fcae0.jpg",
-    "static/media/chairss1.jpg": "/static/media/chairss1.9d61763d0111d07fc932.jpg",
-    "static/media/Marley.jpg": "/static/media/Marley.688c785c76c267f04a0d.jpg",
-    "static/media/boots.jpg": "/static/media/boots.83b0e3682f9141694c62.jpg",
-    "static/media/mila.jpg": "/static/media/mila.e545a45b01e8f08f0783.jpg",
-    "index.html": "/index.html",
-    "main.c975516b.css.map": "/static/css/main.c975516b.css.map",
-    "main.78000a71.js.map": "/static/js/main.78000a71.js.map"
+    "main.css": "/PeaglePups/static/css/main.5b90eb49.css",
+    "main.js": "/PeaglePups/static/js/main.a92c6361.js",
+    "static/media/Bailey.jpg": "/PeaglePups/static/media/Bailey.23f46c9b065b69229a8d.jpg",
+    "static/media/rocky.jpg": "/PeaglePups/static/media/rocky.b0f953617fb50bce3b60.jpg",
+    "static/media/breezy.jpg": "/PeaglePups/static/media/breezy.544265208e435d7fcae0.jpg",
+    "static/media/chairss1.jpg": "/PeaglePups/static/media/chairss1.9d61763d0111d07fc932.jpg",
+    "static/media/Marley.jpg": "/PeaglePups/static/media/Marley.688c785c76c267f04a0d.jpg",
+    "static/media/boots.jpg": "/PeaglePups/static/media/boots.83b0e3682f9141694c62.jpg",
+    "static/media/mila.jpg": "/PeaglePups/static/media/mila.e545a45b01e8f08f0783.jpg",
+    "index.html": "/PeaglePups/index.html",
+    "main.5b90eb49.css.map": "/PeaglePups/static/css/main.5b90eb49.css.map",
+    "main.a92c6361.js.map": "/PeaglePups/static/js/main.a92c6361.js.map"
   },
   "entrypoints": [
-    "static/css/main.c975516b.css",
-    "static/js/main.78000a71.js"
+    "static/css/main.5b90eb49.css",
+    "static/js/main.a92c6361.js"
   ]
 }
