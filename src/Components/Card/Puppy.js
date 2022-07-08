@@ -39,8 +39,8 @@ export const Puppy = () => {
             width="300px"
           />
           <Carousel.Caption >
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Breezy</h3>
+            <p>The only girl in your first litter. </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -53,8 +53,8 @@ export const Puppy = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Bailey</h3>
+            <p>One of the two cow boys we had. </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -67,9 +67,10 @@ export const Puppy = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Rocky</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+             The second of the cow boys he weights 27lbs! 
+             He has really long legs but he's a sweetheart.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -87,8 +88,10 @@ export const Puppy = () => {
             width="300px"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Marley</h3>
+            <p>He is lives with his brother Bailey from the first litter.
+              He is a big boy almost a year and he weighs more than Bailey!
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -101,8 +104,9 @@ export const Puppy = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>MIla</h3>
+            <p>The only girl in our Second liter. She has quite short legs, and a beautiful pattern. 
+              She is with her brother Macy from this litter as well.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -115,9 +119,9 @@ export const Puppy = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Macy</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              He has long legs and is quite big as well. He lives with his sister mila.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
