@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <div className='contact-container'>
       <main class="pa4 black br3">
-        <form class="measure center ba pa5 ">
+        <form class="measure center ba pa5 " action="https://getform.io/f/88c578b9-2c0d-4849-bbef-669ebdde076f" method="POST">
           <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
             <legend class="f4 fw6 ph0 mh0 tc">Contact Us</legend>
             <div class="mt3">

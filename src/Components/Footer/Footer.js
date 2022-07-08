@@ -24,7 +24,7 @@ export const Footer = () => {
           rel='noreferrer'>
           <TiSocialInstagram className='icon' /></a>
         <button id='contact' onClick={( )=>setButtonPopup(true)}><BsChatSquareText className='icon grow' /></button>
-          <Popup trigger={buttonPopup} setTigger={setButtonPopup}>
+          <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
             <Contact />
           </Popup>
       </div>
